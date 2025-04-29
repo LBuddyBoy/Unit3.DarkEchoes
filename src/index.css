@@ -1,0 +1,61 @@
+body {
+    background-color: #242424;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* * {
+    border: 1px solid yellow;
+} */
+
+header h1 {
+    color: rgba(255, 255, 255, 0.932);
+    width: fit-content;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#episodesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#episodesContainer .selectedEpisode {
+    color: rgba(247, 234, 124, 0.589);
+}
+
+#episodesContainer h2 {
+    color: rgba(255, 255, 255, 0.87);
+    width: fit-content;
+}
+
+#episodesContainer h3 {
+    width: fit-content;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+#episodesContainer h3:hover {
+    cursor: pointer;
+}
+
+#infoContainer * {
+    margin: 15px;
+}
+
+#infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(177, 173, 173, 0.336);
+    width: fit-content;
+    height: 250px;
+    padding: 15px;
+    border-radius: 15px;
+}
